@@ -1,4 +1,4 @@
-name: JessWhite Deploy to CO.UK
+name: jessicabrentnall Deploy to CO.UK
 
 on:
   push:
