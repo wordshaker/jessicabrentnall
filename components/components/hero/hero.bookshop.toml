@@ -1,0 +1,14 @@
+[component]
+structures = [ "content_blocks" ]
+label = "Hero"
+description = "Page hero with the heading, description, buttons, and an image"
+icon = "wysiwyg"
+tags = ["Structure", "Text", "Links"]
+
+[props]
+title = "Hi, I am Jessica"
+description_html = "<p><strong>Technologist</strong> and <strong>Community Enthusiast</strong>. I work as a Principal Technical Architect, am an Microsoft MVP, I'm on the Board of the .NET Foundation, co-organise DDD East Midlands conference and more.</p>"
+image = "/images/01.jpg"
+image_alt = "Jessica Brentnall's picture"
+cta_button: "LinkedIn"
+cta_button_link: "https://www.linkedin.com/in/jessica-b-67917883/"
