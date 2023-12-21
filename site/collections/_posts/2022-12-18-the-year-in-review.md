@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Year in Review
-description: "A look back on the past year, and forward to the year to come"
+title: 2022 in Review
+description: "A look back on 2022, and forward to the year to come"
 date: 2022-12-18
 image:  '/images/posts/2022/12-18.jpg'
 tags: ['2022','personal']
