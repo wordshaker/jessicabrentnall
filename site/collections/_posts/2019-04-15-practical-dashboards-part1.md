@@ -4,10 +4,11 @@ title: Introduction To Baselines for Dashboards
 description: "Part One of A Practical Guide To Dashboarding. Why dashboards are important and how to keep them useful."
 date: 2019-04-15
 image: "/images/posts/2019/04-15.jpg"
-tags: ['2019']
+tags: ["2019"]
 ---
 
-----
+---
+
 <center>
 <h3> A Practical Guide To Dashboarding Part One </h3>
 </center>
@@ -28,6 +29,7 @@ As with all my posts, this is all based on personal experience. I'm not saying i
 <br/>
 
 ## Let's Chat Metrics
+
 ---
 
 For the following posts, much like the previous chapter, I will be talking about metrics as opposed to diagnostics.
@@ -51,6 +53,7 @@ I will not be covering any aspects of monitoring beyond dashboarding for this se
 <br/>
 
 ## Learning from car dashboards
+
 ---
 
 In previous posts, I've written about how the car dashboards are, in my opinion, one of the best designed visual displays of information. I've written about a couple of aspects of car dashboards we can adapt and learn from, to improve the visualisations we create to display the state of our systems - software, hardware, business or otherwise.
@@ -90,6 +93,7 @@ When making dashboards and visualisations covering systems or businesses, the in
 Again going back to the car dashboard, the speedometer needs to be reacted to quickly and therefore is the biggest dial on most car dashboards. The lights that mean your car needs some serious maintenance glow a threatening red. Based on the appearance and position of these signals and displays, a driver knows it's urgency.
 
 - For dashboards at work, colour systems can be used:
+
   - Green = Healthy
   - Yellow = Might want to do some investigation into what's going on/keep an eye on it
   - Red = IT BROKE! FIX IT! NOW!
@@ -129,6 +133,7 @@ What if we applied a similar idea to the dashboards and visualisations that tell
 <br/>
 
 ## Standardised Baselines
+
 ---
 
 This is not a new idea. Personally, I have used baseline information in teams I have worked in. In infrastructure, it's even more common. If you are using AWS or Azure, for example, they have in-built standards for monitoring certain things which you use.
@@ -140,6 +145,7 @@ I plan to only talk through APIs and services for now, as these are the areas I 
 This set of talks is based on a talk I've recently presented at a few of the NDC Conferences - _A Practical Guide To Dashboarding_. It will go a little more in-depth, and I will share similar resources and maybe even record a couple of accompanying examples to go along with the posts. I have learnt a little more since the first presentation, as is always the way.
 
 ## See the talk
+
 ---
 
 You can watch the talk relating to this particular series here:

@@ -4,15 +4,17 @@ title: Pre-loved not Legacy
 description: "What is great about working with older systems and why I think legacy is a dirty word."
 image: "/images/posts/2020/05-07.jpg"
 date: 2020-05-07
-tags: ['2020']
+tags: ["2020"]
 ---
 
-----
+---
+
 <center>
 <h3> Legacy is a dirty word.  </h3>
 </center>
 
 ---
+
 <br/>
 
 At some point, all of us in technology will work with a system built by another team. If it's built in way that doesn't fit what we think is suitable, current or use the patterns that our team is accustomed to being "right" then these systems often get labelled with the word **_legacy_**.
@@ -21,7 +23,7 @@ When the word legacy is used, it often isn't in a positive light. It's a system 
 
 Often you will hear the teams cursing those who made these systems. They will question their decisions, without really wanting to know why or how systems got in the situation they are in, but instead to place blame.
 
-I think this hides the beauty of these systems, their challenges, the opportunities they offer and reduces the amount of empathy people have for those who once worked on those systems. 
+I think this hides the beauty of these systems, their challenges, the opportunities they offer and reduces the amount of empathy people have for those who once worked on those systems.
 
 ## Pre-loved Systems
 
@@ -56,7 +58,7 @@ Working with these systems is a lot of fun, and part of that is finding their pe
 
 These quirks are fun because you can learn a lot from them. Not only the importance of things like automation, testing and documentation, but also how to work in a reactive environment.
 
-## Investing  In Pre-loved Systems
+## Investing In Pre-loved Systems
 
 At the beginning of this post I said legacy was a dirty word. Legacy brings to mind a hard to work with, badly written system. Something old, dilapidated. Something that needs fixing. An effort.
 

@@ -4,12 +4,13 @@ title: Implementing Instrumentation For Business Need
 description: "A case study on driving instrumentation through business requirements"
 date: 2017-07-20
 image: "/images/posts/2017/07-20.jpg"
-tags: ['2017']
+tags: ["2017"]
 ---
 
 <br/>
 
-----
+---
+
 <center>
 <h3> A proposed approach on how to make the most of instrumentation, and how to unite the development and business overview of products. Mostly opinion, but this has been applied at work to test the theory.</h3>
 </center>
@@ -20,13 +21,13 @@ Monitoring is an expansive topic which I have gained a strong interest in this y
 
 In this blog, the problems that have been faced with instrumentation on a personal level are discussed. The means of how we attempted to solve these issues and the result of the implementation are also explored.
 
-There are a number of different types of and uses for instrumentation. 
+There are a number of different types of and uses for instrumentation.
 
 _For monitoring the health of a system_
 <br/>
 The health of a system refers to what is up, down and what errors are being thrown. This is most useful for developers. It can be used for diagnostics and for seeing what they need to fix, where and if there are effects downstream. This is especially powerful in combination with operational dashboards.
 
-It can also be used to monitor the health of third parties. A certain endpoint becoming unavailable can result in a number of problems. For example, in terms of a customer's experience of a website, the customer may be shown an error screen or a long loading time. 
+It can also be used to monitor the health of third parties. A certain endpoint becoming unavailable can result in a number of problems. For example, in terms of a customer's experience of a website, the customer may be shown an error screen or a long loading time.
 
 _Measuring operational information_
 <br/>
@@ -34,7 +35,7 @@ Operational information informs about the day to day running of a system. This i
 
 _Analysing metrics for business use_
 <br/>
-Metrics can be used in two ways for business use. They can be used for MI (Management Information) or BI (Business Intelligence) purposes. BI is where useful data is shown in a way that the business will understand so that it can be used to inform business strategy. On the other hand, MI is information that can be used to measure the health of the business financially. This can include monitoring of sales, losses or attendance. 
+Metrics can be used in two ways for business use. They can be used for MI (Management Information) or BI (Business Intelligence) purposes. BI is where useful data is shown in a way that the business will understand so that it can be used to inform business strategy. On the other hand, MI is information that can be used to measure the health of the business financially. This can include monitoring of sales, losses or attendance.
 
 In terms of the work discussed here, the dashboards created were more for the purposes of BI. By creating dashboards that the business could understand, they could work out where work needed to be done to improve their products and features. For example, a dashboard could show the effectiveness of sms versus email for your customers. The uptake of these communication methods could then direct the aims of a marketing team and how they tell customers about their next initiative.
 
@@ -46,36 +47,37 @@ My early experience with instrumentation had been dashboards built purely by dev
 
 The issues with this method were:
 
-+ _Noisy dashboards_: In some cases dashboards contained unnecessary information. This made them busy and hard to read. Sometimes they would be trimmed down, but often this wasn't the case.
-<br/><br/>
-+ _Missing information_: In other situations the dashboards did not contain the information needed to spot problems early on.
-<br/><br/>
-+ _Neglected dashboards_: Dashboards were used in the short term. Once the feature was considered stable, they were only really used if considered useful for diagnosing the cause of an alert.
+- _Noisy dashboards_: In some cases dashboards contained unnecessary information. This made them busy and hard to read. Sometimes they would be trimmed down, but often this wasn't the case.
+  <br/><br/>
+- _Missing information_: In other situations the dashboards did not contain the information needed to spot problems early on.
+  <br/><br/>
+- _Neglected dashboards_: Dashboards were used in the short term. Once the feature was considered stable, they were only really used if considered useful for diagnosing the cause of an alert.
 
 The full power of instrumentation wasn't being utilised. To address this we had a look into how dashboards can be useful to the business as a whole. Some of the reasons we use dashboards include:
 
-+ Observing features are behaving as expected.
-+ Observing the health of a feature.
-+ Checking SLAs are being adhered to.
-+ Being able to identify where problems are arising with ease.
-+ Identifying areas to be optimised.
+- Observing features are behaving as expected.
+- Observing the health of a feature.
+- Checking SLAs are being adhered to.
+- Being able to identify where problems are arising with ease.
+- Identifying areas to be optimised.
 
-As mentioned dashboards are useful not only to development teams, but also to other departments. 
+As mentioned dashboards are useful not only to development teams, but also to other departments.
 
 ##### The proposed solution
+
 The company works in scrum. As such, work is discussed between stakeholders, then is prioritised based on business need. It is organised into epics (large themes of work) which are split into stories. Each of these stories have acceptance criteria which outline the expected results of each piece of work.
 
-A lot of the information we need on the dashboards align closely to the acceptance criteria driving feature development. As mentioned, part of the purpose of the acceptance criteria of epics and stories is to outline the stakeholders expectations of what behaviours features should have. 
+A lot of the information we need on the dashboards align closely to the acceptance criteria driving feature development. As mentioned, part of the purpose of the acceptance criteria of epics and stories is to outline the stakeholders expectations of what behaviours features should have.
 
 We can align some of the acceptance criteria to outline what metrics are useful for business use and operational information. The instrumentation for the health of the system can be left to the developers. By building metrics and dashboards from acceptance criteria we ensure that stakeholders questions can be answered regarding expected behaviours and contracts with third parties. Further, it restricts the information to what is useful to those using the dashboards, decreasing unnecessary noise.
 
 Earlier, metrics for business use were discussed in terms of MI (Management Information) and BI (Business Intelligence). The reason this work encompasses BI dashboards but not MI is that the information needed for BI aligns up more with what can be acquired from acceptance criteria i.e. how many customers use X feature. The information for MI (i.e. financial information) is not normally gained from the development teams. As such, it would not align well to being part of acceptance criteria and is treated as a separate stream of work.
 
-By doing all of this we can make a couple of different types of dashboards for projects. The first type shows operational and health metrics from which alerts can be based. The second are business metric dashboards for other teams. 
+By doing all of this we can make a couple of different types of dashboards for projects. The first type shows operational and health metrics from which alerts can be based. The second are business metric dashboards for other teams.
 
 _Health and operational metrics_
 <br/>
-When features are first released, dashboards are monitored closely by development and are incredibly useful. Further, when there are alerts showing something has gone wrong in the system, dashboards are useful for quick diagnosis. 
+When features are first released, dashboards are monitored closely by development and are incredibly useful. Further, when there are alerts showing something has gone wrong in the system, dashboards are useful for quick diagnosis.
 
 _Business metrics_
 <br/>
@@ -83,7 +85,7 @@ If the dashboards are built from acceptance criteria, we could provide access to
 
 ##### The application.
 
-To try this theory out, first we had to get buy in from the business. The product owner was required to write extra acceptance criteria in order for this to work. They needed to get requirements from the stakeholders about what they needed to know about each feature and about agreed contracts with any third parties involved. 
+To try this theory out, first we had to get buy in from the business. The product owner was required to write extra acceptance criteria in order for this to work. They needed to get requirements from the stakeholders about what they needed to know about each feature and about agreed contracts with any third parties involved.
 
 Once gained, the product owner included acceptance criteria for instrumentation covering these requirements. By doing this it ensured that these metrics would be included as part of the development work.
 

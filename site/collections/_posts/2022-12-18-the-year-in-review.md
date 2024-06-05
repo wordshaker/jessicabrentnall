@@ -3,11 +3,12 @@ layout: post
 title: 2022 in Review
 description: "A look back on 2022, and forward to the year to come"
 date: 2022-12-18
-image:  '/images/posts/2022/12-18.jpg'
-tags: ['2022','personal']
+image: "/images/posts/2022/12-18.jpg"
+tags: ["2022", "personal"]
 ---
 
-----
+---
+
 <center>
 <h3> An eventful 2022 </h3>
 </center>
@@ -26,7 +27,7 @@ There is a silver lining to every cloud however. I have an amazing support syste
 
 Professionally I've also gone through some changes. I have recently left the Ministry of Justice and joined NewDay as a Principal Architect. I'm still going through the new job jitters, but this work place presents new challenges and problems to solve. Again, I get to work with some fantastic people and I'm looking forward to growing into this role.
 
-I've also joined the board of the .NET Foundation this year. It's a lot of work, but my fellow board members are very supportive and I'm enjoying working with them. It was a surprise and honour to have been elected to the position and I will do my utmost to fufil my duties in the role. 
+I've also joined the board of the .NET Foundation this year. It's a lot of work, but my fellow board members are very supportive and I'm enjoying working with them. It was a surprise and honour to have been elected to the position and I will do my utmost to fufil my duties in the role.
 
 ## Looking to 2023
 
@@ -34,9 +35,9 @@ Next year is a big and eventful year.
 
 The new organisation committee for <a href="http://dddeastmidlands.com/" target="_blank">DDD East Midlands Conference</a> are already working hard to make the 2023 event epic. We are putting precautions in place so that even people restricted like myself will be able to attend safely. This may annoy some people with inconvienience but as we are all passionate about making the event accessible and enjoyable to as many as possible we are taking that risk. There are more peripheral events happening, including mentorship events. It's definitely an event to be excited for (and for your company to sponsor).
 
-I'm hoping that I will find my rhythm in my new role soon and take the opportunities I can to grow, learn and do great work in 2023 as well. 
+I'm hoping that I will find my rhythm in my new role soon and take the opportunities I can to grow, learn and do great work in 2023 as well.
 
-There are some other things happening which are exciting which I won't be sharing on here, but I can't wait for. 
+There are some other things happening which are exciting which I won't be sharing on here, but I can't wait for.
 
 Just like this year, I have no doubt that 2023 will have highs and lows. With challenge comes opportunity and experience. I'm looking forward to seeing what happens next.
 

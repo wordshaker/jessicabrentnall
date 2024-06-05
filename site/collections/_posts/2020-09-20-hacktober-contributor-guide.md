@@ -4,25 +4,26 @@ title: Hacktober Hints For Contributors
 description: "Links and tips for how to take part in Hacktober and where to find repositories to contribute to."
 date: 2020-09-20
 image: "/images/posts/2020/09-20.jpg"
-tags: ['2020']
+tags: ["2020"]
 ---
 
-----
+---
+
 <center>
 <h3> Contributing to Open Source For Swag </h3>
 </center>
 
 ---
+
 <br/>
 
 October has come around quickly, which means it's time to turn that GitHub graph green, find projects that need help and earn a t-shirt and stickers for your hard efforts. This post goes through what Hacktober is, how to find finding projects to contribute to while ensuring your safety and how to make a contribution.
 
 ## What is Hacktoberfest and how to sign up
 
-Hacktoberfest is an event where the aim is to encourage participation on the open source community. In exchange for a number of pull requests on OSS repositories, participants are rewarded with a t-shirt and some stickers. 
+Hacktoberfest is an event where the aim is to encourage participation on the open source community. In exchange for a number of pull requests on OSS repositories, participants are rewarded with a t-shirt and some stickers.
 
 To sign up, <a href="https://Hacktoberfest.digitalocean.com/" rel="noreferrer" target="_blank"> head over to the Hacktoberfest website</a>.
-
 
 <br/>
 
@@ -81,21 +82,21 @@ There are a number of labels which are attached to issues, indicating they are l
 
 In general, people want to help you and encourage you to learn in a safe space. None the less, not all online spaces are safe and welcoming. For the most part, if it is indicated that a project has issues suited for beginners and first time contributors, then it's a project you will be treated well in.
 
-### Check that the project has a code of conduct before contributing. 
+### Check that the project has a code of conduct before contributing.
 
 Hopefully this code of conduct will outline what you can do if you experience any behaviour that makes you feel uncomfortable or that is un-supportive. In this case, if the worst happens you know that you will be supportive and what support you can expect to receive.
 
 The code of conduct may be in a markdown file, often named `CODE_OF_CONDUCT.md` or may be attached in the README of the project.
 
-### Check current issues and PRs for tone of voice. 
+### Check current issues and PRs for tone of voice.
 
-An option is to look through current issues and pull requests that have been picked up to see what the maintainers tone of voice is and how responsive they are. 
+An option is to look through current issues and pull requests that have been picked up to see what the maintainers tone of voice is and how responsive they are.
 
-#### Are they constructive and friendly? 
+#### Are they constructive and friendly?
 
 This is a check to see that you are going to get the right level of support and feedback that you need and that the environment/online-culture is suitable for you.
 
-#### Are comments responded to within 6 months/a year. 
+#### Are comments responded to within 6 months/a year.
 
 Not all repositories will have immediate feedback, as often these repositories are done in maintainers free time. It is worth checking that the repository is still actively maintained, even if comments are addressed monthly.
 
@@ -112,7 +113,6 @@ The Licence for GitHub projects is shown and linked to in the About section on t
 <br/>
 
 There are a number of resources around licencing, but a quick go-to is <a href="https://opensource.org/licenses" rel="noreferrer" target="_blank">the list on the Open Source Website</a>
-
 
 <br/>
 
@@ -154,13 +154,13 @@ You can raise a Pull Request at the end of your changes, or open a draft pull re
 
 #### Double check you've met the contribution guidelines
 
-Go back to the contribution guidelines and check that you've met the instructions/requirements outlined in them. 
+Go back to the contribution guidelines and check that you've met the instructions/requirements outlined in them.
 
 <br/>
 
 ## Checking for and fixing conflicts
 
-Sometimes your changes will become out of date with the upstream (originating) repository as other changes have been merged in while you've been making yours. 
+Sometimes your changes will become out of date with the upstream (originating) repository as other changes have been merged in while you've been making yours.
 
 ### Ensure upstream is set up
 
@@ -197,7 +197,7 @@ git merge upstream/main
 
 There are numerous tools for resolving git conflicts including <a href="https://www.scootersoftware.com/" rel="noreferrer" target="_blank">Beyond Compare</a>, <a href="https://code.visualstudio.com/" rel="noreferrer" target="_blank">Visual Studio Code</a>, your IDE or choice or you can use your terminal of choice.
 
-I personally like to use <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts" target="_blank">the Visual Studio Code merge conflict solution.</a> I find it very intuitive and easy to use. 
+I personally like to use <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts" target="_blank">the Visual Studio Code merge conflict solution.</a> I find it very intuitive and easy to use.
 
 Have a google and see which offering you think is best for you. If you do have conflicts and are struggling, you can comment to ask the maintainer to help resolve your conflicts.
 
@@ -208,6 +208,7 @@ When the conflicts are resolved locally, you add your changes, merge and push. T
 <br/>
 
 ## Extra Resources
+
 - <a href="http://opensource.guide/how-to-contribute/" rel="noreferrer" target="_blank">How to Contribute to Open Source</a>
 - <a href="https://chris.beams.io/posts/git-commit/" rel="noreferrer" target="_blank">How to Write a Git Commit Message</a>
 

@@ -3,16 +3,18 @@ layout: post
 title: Maintaining Repositories During Hacktober
 description: "A guide to maintaining repositories during Hacktoberfest 2021"
 date: 2021-10-08
-image:  '/images/posts/2021/10-08.jpg'
-tags: ['2021']
+image: "/images/posts/2021/10-08.jpg"
+tags: ["2021"]
 ---
 
-----
+---
+
 <center>
 <h3> A quick guide to maintaining repositories during Hacktober. </h3>
 </center>
 
 ---
+
 <br/>
 
 <h2>Quick Links:</h2>
@@ -58,7 +60,7 @@ To opt your repository into Hacktoberfest do **EITHER** of the following.
 
 **1. Add `Hacktoberfest` to the repositories topic**
 
-On the main page of your repository add *Hacktoberfest* as a topic tag. See the image below to see where this is editable.
+On the main page of your repository add _Hacktoberfest_ as a topic tag. See the image below to see where this is editable.
 
 <br/>
 <div style="text-align:center; width:80%; margin-left: 10%;" markdown="1">
@@ -68,7 +70,7 @@ On the main page of your repository add *Hacktoberfest* as a topic tag. See the 
 
 **2. Add a `Hacktoberfest-accepted` label**
 
-Add a *Hacktoberfest-accepted* label which can be applied to approved issues or pull requests in your repository.
+Add a _Hacktoberfest-accepted_ label which can be applied to approved issues or pull requests in your repository.
 
 <br/>
 <div style="text-align:center; width:80%; margin-left: 10%;" markdown="1">
@@ -88,7 +90,7 @@ To ensure spam pull requests aren't counted as a Hacktoberfest contribution just
 
 ### In Built Guidance
 
-A lot of the items mentioned in this section are listed in the Community Profile listed in GitHub. To see this, head to your repository and click on `Insights` > `Community`. 
+A lot of the items mentioned in this section are listed in the Community Profile listed in GitHub. To see this, head to your repository and click on `Insights` > `Community`.
 
 <br/>
 <div style="text-align:center; width:80%; margin-left: 10%;" markdown="1">
@@ -100,11 +102,11 @@ A lot of the items mentioned in this section are listed in the Community Profile
 
 ### GitHub Templates
 
-Adding <a href="https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/about-issue-and-pull-request-templates" target="_blank">issue and pull request templates</a> to your repository helps ensure that all Pull Requests and Issues are consistent and contain the information needed. 
+Adding <a href="https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/about-issue-and-pull-request-templates" target="_blank">issue and pull request templates</a> to your repository helps ensure that all Pull Requests and Issues are consistent and contain the information needed.
 
 You can outline headings and put down some description of what you would like those contributing to put under each heading. For example, in the Pull Request template for the repositories I co-manage, we ask for a list of changes, test evidence of them working and links to relevant issues.
 
-There is also the opportunity to create different templates for different scenarios. For example, on one of the repositories I co-manage we have separate templates for Bug Report Issues versus Feature Requests. These two types of issues require different information, so separating them was useful to us and our community. 
+There is also the opportunity to create different templates for different scenarios. For example, on one of the repositories I co-manage we have separate templates for Bug Report Issues versus Feature Requests. These two types of issues require different information, so separating them was useful to us and our community.
 
 Instructions for how to set up these templates can be found <a href="https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/about-issue-and-pull-request-templates" target="_blank">here.</a>
 
@@ -152,7 +154,7 @@ This means all those contributing are pre-warned to the consequences of actions 
 
 All in all this document helps provide the information necessary to try to preserve a good culture in the repositories you are maintaining and make sure that everyone taking part has a good experience.
 
-The trickiest bit in my point of view is having a plan in place for if any code of conduct issues do arise. What will you do as a maintainer if someone is abusive or inappropriate in the space of the repository you manage? What will the repercussions to be to the person who is breaking the code of conduct? Can a person report behaviour in a safe and, potentially, confidential way? An occurrence like this is rare, but it is best to be prepared, just in case you do have to deal with it.  
+The trickiest bit in my point of view is having a plan in place for if any code of conduct issues do arise. What will you do as a maintainer if someone is abusive or inappropriate in the space of the repository you manage? What will the repercussions to be to the person who is breaking the code of conduct? Can a person report behaviour in a safe and, potentially, confidential way? An occurrence like this is rare, but it is best to be prepared, just in case you do have to deal with it.
 
 <br/>
 
@@ -160,19 +162,23 @@ The trickiest bit in my point of view is having a plan in place for if any code 
 
 The README is the first thing I look at when going to a repository. As such it is a fantastic place, in my view, to link to any resources and give guidance on how to work with the repository. Some of the things I found useful to have in the README include:
 
-* #### Build badge
+- #### Build badge
+
   In the README we have a build badge for our main branch. This easily shows if the main branch is in a good state.
 
-* #### Links to other markdown files
+- #### Links to other markdown files
+
   As the README is the first place a lot of people look for information, we found it useful to have links to the other files including the Contribution Guidelines and Code of Conduct.
 
-* #### Instructions on how to build the project locally
+- #### Instructions on how to build the project locally
+
   When a developer is working on your repository they will often want to build your project locally while they are working on it. Especially for those unfamiliar with your project, instructions on how to do this are useful. This also means manual tests and evidence of change can be attached to the Pull Request.
 
-* #### Instructions on how to test the project locally
+- #### Instructions on how to test the project locally
+
   Again, contributors will often want to test their changes and ensure they haven't had unexpected impacts on your project. Instructions for how to run tests locally, not only means they won't rely on the build to see if these tests work, but also means they can take screen shots for evidence on their PR.
 
-* #### Branding information
+- #### Branding information
   If there are any branding guidelines, such as fonts or colour schemes it's often useful. As the majority of the repositories I maintain are websites, I've found this information is useful for contributing developers and designers alike.
 
 <br/>
@@ -181,19 +187,19 @@ The README is the first thing I look at when going to a repository. As such it i
 
 These guidelines inform contributors what they need to do to make changes to the repository. Some of the sections we found useful include:
 
-* #### Instructions for picking up work
+- #### Instructions for picking up work
+
   As there may be multiple people wanting to work on the same issues, it's useful to have instructions for what to do when someone wants to pick up work, and how the contributor will be selected when multiple people want to work on the same issue. How does one indicate their interest? At what point can they submit their work on their issue? How will it be communicated that they can pick up a piece of work?
 
-* #### PR Guidelines
+- #### PR Guidelines
   This is assisted with some of the automation available which is outlined later, such as PR templates and Code Owner files. You may want to add information in your guidelines though if there is a particular PR workflow you want people to adhere to. This can also include what labels used for PRs in different statuses and what is required to have a PR approved and merged.
-  
-* #### Branching guidelines
+- #### Branching guidelines
+
   How do you want people to branch from your project? Branch directly? Fork the repository? It can also be useful to link to resources for beginners. Also, is there a naming style for branches you would like contributors to conform to?
 
-* #### Issue raising guidelines
+- #### Issue raising guidelines
   Again, so that your contributors have visibility of what to do, it can be useful to have a section on what to do when creating an issue. For the repositories I work on, we use this section to outline the different types of issues and their purpose, the level of information required and how to link to pre-existing issues.
-  
-* #### Link to the code of conduct
+- #### Link to the code of conduct
   Might seem like I've put this everywhere, but the Code of Conduct is inherently linked to contributing. This is a light reminder that if you are considering working on a repository, all contributors need to behave in a way that aligns to the Code of Conduct.
 
 Instructions for <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors" target="_blank">how to set up a contribution.md can be found here.</a>
@@ -202,7 +208,7 @@ Instructions for <a href="https://docs.github.com/en/communities/setting-up-your
 
 ### Avoiding PR clashes
 
-Tracking suggested changes can be done using Issues. For the repositories I look after I ask that a person is assigned to an existing issue or an that a new issue is raised. Once a maintainer has assigned the change to them, then they can raise a pull request. This worked on a "first-come-first-served" basis. In the contribution guidelines, state how long an issue can be assigned to a person before it can be reassigned to someone new. This is indicated by un-assigning the issue and adding in labels again such as `help wanted` and removing `in progress` labels. 
+Tracking suggested changes can be done using Issues. For the repositories I look after I ask that a person is assigned to an existing issue or an that a new issue is raised. Once a maintainer has assigned the change to them, then they can raise a pull request. This worked on a "first-come-first-served" basis. In the contribution guidelines, state how long an issue can be assigned to a person before it can be reassigned to someone new. This is indicated by un-assigning the issue and adding in labels again such as `help wanted` and removing `in progress` labels.
 
 The reason for this is you may have a number of pull requests being raised for the same issue from numerous people. This provides a fair way to decide who's changes went through, and to be transparent about what this process was.
 
@@ -232,8 +238,8 @@ There are lots of different types of contribution that can be made to a reposito
 
 - Bug fixes
 - Feature contributions
-- Designs 
-- Adding tests 
+- Designs
+- Adding tests
 - Accessibility testing and checks
 - UI and UX assessments
 
@@ -245,7 +251,7 @@ It's also worth keeping in mind, contributors can come in many forms. Not only w
 
 ### Tone of voice
 
-When taking care of a repository you need to determine your tone of voice when talking to contributors. Make sure its constructive, and not unkind. 
+When taking care of a repository you need to determine your tone of voice when talking to contributors. Make sure its constructive, and not unkind.
 
 Your tone of voice determines the culture of the repository as a whole. The maintainers are the example for what communications and behaviours should look like.
 
@@ -260,7 +266,6 @@ This is not a fully comprehensive list of all that is involved in being a mainta
 _Stay Safe,_
 
 _Jess_
-
 
 ---
 

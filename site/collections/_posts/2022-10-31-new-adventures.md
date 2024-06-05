@@ -3,11 +3,12 @@ layout: post
 title: New Adventures
 description: "The new exciting life challenges that I've started towards the end of 2022"
 date: 2022-10-31
-image:  '/images/posts/2022/10-31.jpg'
-tags: ['2022','personal']
+image: "/images/posts/2022/10-31.jpg"
+tags: ["2022", "personal"]
 ---
 
-----
+---
+
 <center>
 <h3> Watch how I juggle these plates </h3>
 </center>
@@ -25,7 +26,6 @@ Another personal post, but hopefully one that will lead to this blog regaining i
 I have left The Legal Aid Agency, Ministry of Justice as of October. As a Lead Developer and then a Technical Architect I got to work with some fantastic people on some really challenging projects during my time there. I have grown professionally and personally while there and it was a great experience.
 
 Starting on Halloween I am starting at NewDay as a Principal Architect. I'm excited to tackle some new challenges with a great team. I'll try to keep this site update with what I learn as I go.
-
 
 #### Joined the Board of the .NET Foundation
 
