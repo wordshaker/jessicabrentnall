@@ -4,15 +4,17 @@ title: Service Levels
 description: "Explaining Service Levels Objectives, Agreements and Indicators, what they are and how they are useful."
 image: "/images/posts/2020/04-09.jpg"
 date: 2020-04-09
-tags: ['2020']
+tags: ["2020"]
 ---
 
-----
+---
+
 <center>
 <h3> Objectives, Agreements and Indicators. </h3>
 </center>
 
 ---
+
 <br/>
 
 In order to know if a system is working, we have to know what working looks like and how to measure it. This is not only a technical concern, but also a product and/or business need. We make things for customers and clients, and as such, part of knowing if something is working includes knowing how these users are impacted and if they are receiving the "right" level of service.
@@ -35,7 +37,7 @@ For SLOs and SLAs you will most likely be discussing them with product / the wid
 
 ### How these are linked
 
-SLOs are agreed in terms of business and product requirements. They are how the a service is expected behave as a good average, and not be a measurement of perfection or stretch goals. 
+SLOs are agreed in terms of business and product requirements. They are how the a service is expected behave as a good average, and not be a measurement of perfection or stretch goals.
 
 These help when agreeing SLAs. By knowing what the expected behaviour of a service or system is, you can then set reasonable and achievable SLAs with your users, clients, consumers and third parties.
 
@@ -47,9 +49,9 @@ Another way to look at this is SLOs set the expectations, SLAs determine consequ
 
 ---
 
-# Diving into each 
+# Diving into each
 
-Now we have established the basics of what each are and how they are connected; lets dive into each of them in a bit more detail. 
+Now we have established the basics of what each are and how they are connected; lets dive into each of them in a bit more detail.
 
 <br/>
 
@@ -71,15 +73,15 @@ Most importantly, the objectives need to demonstrate what the reasonable expecta
 
 ### Determining SLOs
 
-There are a number of factors when defining and determining SLOs. As mentioned SLOs have to tie into business and product need, as well as the technical considerations such as feasibility of measurement and cost. 
+There are a number of factors when defining and determining SLOs. As mentioned SLOs have to tie into business and product need, as well as the technical considerations such as feasibility of measurement and cost.
 
 <strong>Simple and discrete</strong>
 
-Ideally, there should be a limited number of these measures and they should be measures that aren't over complicated. The more complex the measurement and the more moving pieces, the more likely it is that something will be missed or misinterpreted. Likewise, too many measures hide what it is important and can be difficult to keep track of. 
+Ideally, there should be a limited number of these measures and they should be measures that aren't over complicated. The more complex the measurement and the more moving pieces, the more likely it is that something will be missed or misinterpreted. Likewise, too many measures hide what it is important and can be difficult to keep track of.
 
 <strong>Not a measure of perfection</strong>
 
-As mentioned previously, SLOs are measures of what is expected of the service. Common mistakes with SLOs are to set them too high or too low. 
+As mentioned previously, SLOs are measures of what is expected of the service. Common mistakes with SLOs are to set them too high or too low.
 
 SLOs are meant to be achievable, not set as stretch goals or what the system can achieve in a perfect world. If you are rarely or never achieving an SLO, it defeats the purpose of having it as a measure of if the service is meeting it's expected behaviours to be "available".
 
@@ -95,7 +97,7 @@ There may also be costs outside of operational costs that would need to be consi
 
 <strong>Flexibilities of measures</strong>
 
-Over time a service's purpose can change, as can the expectations of that service. For example, changes in code or tooling could change the level of average performance. Likewise, there can be additional or reduced features from product. Over time, it is best to review and adjust SLOs and related SLAs and SLIs. 
+Over time a service's purpose can change, as can the expectations of that service. For example, changes in code or tooling could change the level of average performance. Likewise, there can be additional or reduced features from product. Over time, it is best to review and adjust SLOs and related SLAs and SLIs.
 
 <strong>Accounting for error budgets</strong>
 
@@ -115,9 +117,9 @@ They are a good way to have clear and strong relationship with your customers, c
 
 ### Setting SLAs
 
-Although SLAs can be linked to SLOs they are often not matched to each other. The agreements tend to be set at a more relaxed level than the objectives. 
+Although SLAs can be linked to SLOs they are often not matched to each other. The agreements tend to be set at a more relaxed level than the objectives.
 
-In order to set SLAs you will first need to measure baselines of how you service normally behaves and what its capable of. This may be done through monitoring your system or testing it. 
+In order to set SLAs you will first need to measure baselines of how you service normally behaves and what its capable of. This may be done through monitoring your system or testing it.
 
 The next step is to talk to the direct consumers/customers of your service. Find out what sort of service they expect/need, why and if it's achievable. Find out which behaviours of your service are of highest priority to them - availability, throughput, response time etc. All of this will help limit and define your final SLAs
 
@@ -128,6 +130,7 @@ Once these draft SLAs are written they need to be proposed to the business to be
 For internal SLAs, the expectation of how different services/domains interact can effect a users journey end to end. It can be beneficial to consider overall contracts at a high level in certain circumstances to get an idea of a "worst case" for all SLAs. I.e. what the slowest agreed journey is end-to-end for your consumer/customer given all components and domains involved are meeting their maximum SLA for latency.
 
 All of this process involves the cooperation of multiple departments in your company. For example:
+
 - Tech will be impacted by what is currently achievable with what they have built and if SLIs are in place to measure the agreed contract is being met.
 - Product could be impacted by trying to meet consumer/customer/clients needs and discussions around that.
 - Finances and the business as a whole could be impacted by the consequences of a SLA not being met.
@@ -163,7 +166,7 @@ In order to measure SLAs and SLOs, SLIs need to be put into place. Objectives an
 
 In some way or other you will need to set up monitoring to track whether your SLAs and SLOs are being met. This could be with dashboards and with alerts for when thresholds are under threat. If an SLA or SLO is in danger of not being met, it is likely there will be some work needed and communication sent out to remediate the issues.
 
-If there are any measurements missing for the purpose of measuring if SLAs and SLOs are being met they will need to be implemented. 
+If there are any measurements missing for the purpose of measuring if SLAs and SLOs are being met they will need to be implemented.
 
 ### Determining SLIs
 
@@ -183,7 +186,7 @@ It's most likely some tooling will be required in order to implement SLIs. When 
 
 # Transparency
 
-One of the most important aspects of defining and measuring service levels is transparency and communication. 
+One of the most important aspects of defining and measuring service levels is transparency and communication.
 
 Firstly, they help with communication. SLOs and SLAs are great for clarifying expectation and can be referred to whenever changes are being asked for. It might be that you are fighting to do work that may enable these service levels being improved or met. Maybe they have been missed a few times and work needs to be done to fix up a product. Another possibility is that you may refer to the effect on expected service level when new functionality is being proposed.
 

@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  'use strict';
+  "use strict";
 
   /* =======================
   // Menu
   ======================= */
   var body = document.querySelector("body"),
-  menuOpenIcon = document.querySelector(".nav__icon-menu"),
-  menuCloseIcon = document.querySelector(".nav__icon-close"),
-  menuList = document.querySelector(".main-nav");
+    menuOpenIcon = document.querySelector(".nav__icon-menu"),
+    menuCloseIcon = document.querySelector(".nav__icon-close"),
+    menuList = document.querySelector(".main-nav");
 
   menuOpenIcon.addEventListener("click", () => {
     menuOpen();
@@ -28,16 +28,16 @@ document.addEventListener("DOMContentLoaded", function () {
   /* =======================
   // Animation Load Page
   ======================= */
-  setTimeout(function(){
+  setTimeout(function () {
     body.classList.add("is-in");
-  },150)
+  }, 150);
 
   /* ==================================
   // Stop Animations After All Have Run
   ================================== */
-  setTimeout(function(){
+  setTimeout(function () {
     body.classList.add("stop-animations");
-  },1500)
+  }, 1500);
 
   /* ======================================
   // Stop Animations During Window Resizing
@@ -51,44 +51,45 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 300);
   });
 
-
   /* =======================
   // Responsive Videos
   ======================= */
-  reframe(".post__content iframe:not(.reframe-off), .page__content iframe:not(.reframe-off)");
-
+  reframe(
+    ".post__content iframe:not(.reframe-off), .page__content iframe:not(.reframe-off)",
+  );
 
   /* =======================
   // Zoom Image
   ======================= */
   const lightense = document.querySelector(".page img, .post img"),
-  imageLink = document.querySelectorAll(".page a img, .post a img");
+    imageLink = document.querySelectorAll(".page a img, .post a img");
 
   if (imageLink) {
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].classList.add("no-lightense");
+    for (var i = 0; i < imageLink.length; i++)
+      imageLink[i].parentNode.classList.add("image-link");
+    for (var i = 0; i < imageLink.length; i++)
+      imageLink[i].classList.add("no-lightense");
   }
 
   if (lightense) {
     Lightense(".page img:not(.no-lightense), .post img:not(.no-lightense)", {
-    padding: 60,
-    offset: 30
+      padding: 60,
+      offset: 30,
     });
   }
 
   /* ============================
   // Smooth scrolling to section
   ============================ */
-  document.querySelectorAll(".works-button").forEach(anchor => {
+  document.querySelectorAll(".works-button").forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
 
       document.querySelector(this.getAttribute("href")).scrollIntoView({
-        behavior: "smooth"
+        behavior: "smooth",
       });
     });
   });
-
 
   /* ============================
   // Testimonials Slider
@@ -112,11 +113,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         0: {
           items: 1,
-        }
-      }
+        },
+      },
     });
   }
-
 
   /* ============================
   // iTyped
@@ -131,12 +131,11 @@ document.addEventListener("DOMContentLoaded", function () {
       loop: true,
       showCursor: true,
       cursorChar: "|",
-      onFinished: function(){}
-    }
+      onFinished: function () {},
+    };
 
-    ityped.init('#ityped', options);
+    ityped.init("#ityped", options);
   }
-
 
   /* ============================
   // Scroll to top
@@ -144,7 +143,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const btnScrollToTop = document.querySelector(".top");
 
   window.addEventListener("scroll", function () {
-    window.scrollY > window.innerHeight ? btnScrollToTop.classList.add("is-active") : btnScrollToTop.classList.remove("is-active");
+    window.scrollY > window.innerHeight
+      ? btnScrollToTop.classList.add("is-active")
+      : btnScrollToTop.classList.remove("is-active");
   });
 
   btnScrollToTop.addEventListener("click", function () {
@@ -152,9 +153,8 @@ document.addEventListener("DOMContentLoaded", function () {
       window.scrollTo({
         top: 0,
         left: 0,
-        behavior: "smooth"
-      })
+        behavior: "smooth",
+      });
     }
   });
-
 });

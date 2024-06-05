@@ -4,20 +4,22 @@ title: Pre-loved Systems Are Like Second Hand Jigsaw Puzzles
 description: "Working out domains when working with pre-existing systems. How to put together the full picture of a system."
 date: 2020-05-19
 image: "/images/posts/2020/05-19.jpg"
-tags: ['2020']
+tags: ["2020"]
 ---
 
-----
+---
+
 <center>
 <h3> Putting together the bigger picture </h3>
 </center>
 
 ---
+
 <br/>
 
-Recently, we have all been stuck indoors. To keep entertained, some of us have taken up putting together jigsaw puzzles. 
+Recently, we have all been stuck indoors. To keep entertained, some of us have taken up putting together jigsaw puzzles.
 
-A lot of my career has involved working with pre-loved systems, and it's come to mind how similar working out a system and it's domain(s) is to having bought a second-hand jigsaw puzzle and putting those pieces together. 
+A lot of my career has involved working with pre-loved systems, and it's come to mind how similar working out a system and it's domain(s) is to having bought a second-hand jigsaw puzzle and putting those pieces together.
 
 There are two approaches to solving a jigsaw puzzle or learning about a domain. Working from the pieces up or from the full picture down. Using this analogy I will go through why I think the later has more benefits.
 
@@ -33,7 +35,7 @@ In terms of pre-loved systems, this is what can happen when you try to figure ou
 
 ### 2. There are missing pieces
 
-For a second hand jigsaw puzzle, missing pieces can mean not finishing the full picture. 
+For a second hand jigsaw puzzle, missing pieces can mean not finishing the full picture.
 
 For pre-loved systems a missing piece can happen from a number of situations. There might be parts of your domain that haven't been handed over or documented. It may be that, for some historical reason, another team has that missing piece of your domain. It could just be that there is a piece of the system that hasn't been thought of or created yet that could enhance your domain as a whole.
 
@@ -61,7 +63,7 @@ When working with pre-loved systems, there is no magic picture on a box. Instead
 
 ### Product Owners
 
-Arrange a meeting with the the product owners that have cared for this domain before it was handed to you. This meeting, in person or remote, isn't to got through the details of the system but instead to go through the journeys at a high level. 
+Arrange a meeting with the the product owners that have cared for this domain before it was handed to you. This meeting, in person or remote, isn't to got through the details of the system but instead to go through the journeys at a high level.
 
 Ask them to walk through a good customer/client/consumer experience using your domain, and then the error scenarios. This can be done with a whiteboard (virtual or physical), post-its, a Trello board or bullet points. Walk through and list the interactions with the domain and the experiences (from a customer or consumer point of view) that it is responsible for.
 
@@ -75,7 +77,7 @@ Also talk to the consumers of your services. These could be internal or external
 
 Here, my examples are angled towards backend systems as that's what I know, but talking to consumers can give you a really good idea about the boundaries of your system and it's interactions.
 
-When having these discussions I often ask for their documentation. When integrating with this domain or on-boarding a new member to work on interaction with this domain, what is the documentation they refer to? 
+When having these discussions I often ask for their documentation. When integrating with this domain or on-boarding a new member to work on interaction with this domain, what is the documentation they refer to?
 
 If there are any available, it is also good to ask about any service level agreements that are in place. These are agreements about behaviour that are in place, where if they are not met, there are consequences to the business. <a href="{{site.baseurl}}/blog/slo-sli-sla-post" rel="noreferrer" target="_blank">More can be read about Service Levels in this blog post.</a>
 
@@ -85,7 +87,7 @@ By having information about the behaviours your consumers expect and how they in
 
 Another group that can help give you the full picture of how your system should work is your users. This may be harder to achieve than the other two, depending on the system you are working with and where you work. Users can come in many forms, but probably the ones we are most familiar with are the people who use your product by integrating with a user interface. Whether this is an expected user of your website, a person working in customer servicing who is using an internal program or otherwise.
 
-Whether you talk directly to your users, record their interactions with your system or run focus groups, this will help highlight how they work with your system and what is important to them. 
+Whether you talk directly to your users, record their interactions with your system or run focus groups, this will help highlight how they work with your system and what is important to them.
 
 Seeing this interaction will not only help with understanding domain, but what features of it are important. Often users won't use your system as intended by product, and doing this will highlight which parts of the system are valued by your users. As well as building a picture of how your system, and the product it supports is useful to your end user and building up a picture of your domain(s), this can also help with prioritisation of future fixes or features. A greater understanding of your user is also beneficial to work as a whole. The more you have an idea of how a product is interacted with and used, the better you can tailor it and empathise with the end user while working on it.
 
@@ -103,7 +105,7 @@ From there, each component can be assessed to see how it fits against this pictu
 
 Figure out the shape of each of your jigsaw puzzle pieces. As you build up a picture of each piece, you'll more easily be able to see where they fit in the picture you've built up with your conversations. It will be clearer how they fit together. All those issues we mentioned in the beginning will be spotted earlier and be more simple to resolve.
 
-In the end, from my personal experience, it will save a lot of time and heart-ache working from the picture down. 
+In the end, from my personal experience, it will save a lot of time and heart-ache working from the picture down.
 
 _Enjoy your puzzles_
 
