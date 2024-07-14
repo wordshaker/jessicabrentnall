@@ -42,6 +42,14 @@ Personally, this feeling increases when you become the outlet for others frustra
 
 I'm not saying this is the case for all those who volunteer for the Foundation or that are members of the Board. This was certainly my experience though. As such, when I got asked if I wanted to run for re-election at the end of my term I knew my answer was no. I was tired and it was time for someone with fresh enthusiasm to take my place. It ha reached a point where I felt I was constantly at battle and there was no way to satisfy the vocal minority. It wasn't worth my energy anymore.
 
+<center>
+<h4> If you want to see change, volunteer for the committees </h4>
+</center>
+
+I'm all for people being empowered to take control of their own destinies. What I would say to those who are frustrated with the .NET Foundation or have concerns over a perceived influence from Microsoft is don't complain; take action. Join the committees, drive the change you want to see. Don't rely on others to influence the change you are passionate about: drive it yourself!
+
+All of the committees are eager for volunteers, and each committee has a member of the board attending. It's the easiest way to influence change in the .NET Foundation, or to get information on why certain changes aren't possible if that is the case.
+
 ### Ambiguity of purpose
 The ambiguity of purpose and goals is something the Foundation has tried to tackle numerous times in the last couple of years, and I think despite many efforts it's still unclear. Is it only for projects, maintainers and contributors? The majority of the Board historically have said no; but I'm not sure this aligns with some peoples views of the foundation. Is the Foundation for a wider .NET community, supporting projects, maintainers and contributors but also speakers, students, and all those included in the .NET community? Some, including myself would say yes, but how does that differentiate the .NET Foundation from other similar communities?
 
