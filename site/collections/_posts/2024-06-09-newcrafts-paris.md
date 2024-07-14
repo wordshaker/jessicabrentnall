@@ -73,7 +73,7 @@ It was a great end to a brilliant day, though I was exhausted at the end of it a
 
 Day Three of NewCrafts was as good as the day before. 
 
-I did arrive a bit later, as I wanted to get some macarons while in Paris (a guilty pleasure of mine. I love them), so I took time early in the morning to enjoy the sun and walk up the Seine. During the day I needed to do some work for my day job as well. Nonetheless, I made the most out of the time I could and attended talks between my work commitments. 
+I did arrive a bit later, as I wanted to get some macrons while in Paris (a guilty pleasure of mine. I love them), so I took time early in the morning to enjoy the sun and walk up the Seine. During the day I needed to do some work for my day job as well. Nonetheless, I made the most out of the time I could and attended talks between my work commitments. 
 
 As well as seeing some fantastic talks, one of the highlights was a short conversation with Anaelle Ea. Anaelle had been at the Women Tech Makers meetup the evening before where I encouraged people to talk to speakers at conferences, and I'm glad they then acted on that advise the next day. I won't share here what we discussed but the interaction made me really happy and I hope to keep in touch going forward.
 
@@ -87,7 +87,7 @@ There are a number of posts about the organisation of the conference and the ins
 
 I haven't given any detail on the talks I saw, as there are many I want to catch up on on Vimeo and honestly, I don't want to spotlight specific talks when the quality of all the talks was so high. I was honoured to share a stage with these speakers. I still can't quite believe I was lucky enough to be listed alongside them.
 
-I will definitely be applying to speak at the future NewCrafts events and I real;y hope I'm fortunate enough to come back next year.
+I will definitely be applying to speak at the future NewCrafts events and I really hope I'm fortunate enough to come back next year.
 
 #### Watch the talks
 
