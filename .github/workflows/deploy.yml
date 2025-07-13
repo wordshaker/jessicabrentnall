@@ -18,9 +18,10 @@ jobs:
         cache: 'npm'
 
     - name: Set up Ruby 3.2.x
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.2.x
+        bundler-cache: true
 
     - name: Install Packages
       run: |
