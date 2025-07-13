@@ -21,12 +21,15 @@
   },
   "homepage": "https://github.com/bglw/bookshop-example#readme",
   "devDependencies": {
-    "@bookshop/browser": "^2.0.10",
-    "@bookshop/jekyll-engine": "^1.7.1",
-    "@bookshop/live": "3.12.0",
+    "@bookshop/browser": "3.16.3",
+    "@bookshop/jekyll-engine": "3.16.3",
+    "@bookshop/live": "3.16.3",
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "prettier": "^3.4.2"
+    "prettier": "^3.6.2"
+  },
+  "overrides": {
+    "esbuild": "0.25.6"
   }
 }
