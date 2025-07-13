@@ -20,7 +20,7 @@ jobs:
     - name: Set up Ruby 3.2.x
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.2.x
+        ruby-version: 3.2
         bundler-cache: true
 
     - name: Install Packages
