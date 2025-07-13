@@ -11,10 +11,16 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Ruby 3.1.x
+    - name: Set up Node.js 20.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.x
+        cache: 'npm'
+
+    - name: Set up Ruby 3.2.x
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: 3.1.x
+        ruby-version: 3.2.x
 
     - name: Install Packages
       run: |
