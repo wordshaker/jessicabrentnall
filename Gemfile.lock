@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/CloudCannon/jekyll-watch
-  revision: d220b890e179afc1c518d34c32be8bf168b19ace
-  specs:
-    jekyll-watch (2.2.1)
-      listen (~> 3.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,6 +21,7 @@ GEM
     ffi (1.17.2-arm-linux-gnu)
     ffi (1.17.2-arm-linux-musl)
     ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x64-mingw-ucrt)
     ffi (1.17.2-x86-linux-gnu)
     ffi (1.17.2-x86-linux-musl)
     ffi (1.17.2-x86_64-darwin)
@@ -44,6 +38,9 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.31.1-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.31.1-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.31.1-x86-linux-gnu)
@@ -96,6 +93,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-tagging (1.1.0)
       nuggets
+    jekyll-watch (2.2.1)
+      listen (~> 3.0)
     json (2.12.2)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
@@ -140,6 +139,8 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.89.2-riscv64-linux-musl)
       google-protobuf (~> 4.31)
+    sass-embedded (1.89.2-x64-mingw-ucrt)
+      google-protobuf (~> 4.31)
     sass-embedded (1.89.2-x86_64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.89.2-x86_64-linux-android)
@@ -151,7 +152,6 @@ GEM
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.6.0)
-    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -168,6 +168,7 @@ PLATFORMS
   riscv64-linux-gnu
   riscv64-linux-musl
   ruby
+  x64-mingw-ucrt
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
@@ -183,8 +184,6 @@ DEPENDENCIES
   jekyll-pagebreak (~> 0.9)
   jekyll-sitemap
   jekyll-tagging
-  jekyll-watch!
-  wdm (~> 0.2.0)
   webrick (~> 1.9)
 
 BUNDLED WITH
