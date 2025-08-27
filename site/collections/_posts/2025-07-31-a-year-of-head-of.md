@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Year Of Being Head Of
-description: "Leaving the Board of Directors for the .NET Foundation"
+description: "Reflection on a year as a Head of Architecture"
 date: 2025-07-31
 image: "/images/posts/2025/07-31.jpg"
 tags: ["2025", "personal"]
@@ -10,10 +10,14 @@ tags: ["2025", "personal"]
 ---
 
 <center>
-<h3> ... </h3>
+<h3> This role aligns to my driver of people before technology. </h3>
 </center>
 
 ---
+
+Hi readers. It's been a while.
+
+
 
 <br/>
 
