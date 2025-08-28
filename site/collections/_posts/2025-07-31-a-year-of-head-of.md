@@ -27,9 +27,20 @@ Previous to this, I was a Senior Principal Architect on the "Individual Contribu
 
 As a Senior Principal, I worked across many products, domains and teams. I got to work at all levels; from working with individual teams on their solutions through to engaging with long term business and client needs; identifying what needs to be done to meet these concerns.
 
-As a Head of Architecture, I still do all that was encompassed in my old role, but with the added accountability of running the Architecture function (specifically Digital / Technical Architecture).
+As a Head of Architecture, I still do all that was encompassed in my old role, but with the added accountability of running the Architecture function (specifically Digital / Technical Architecture). This includes line management of individuals, capacity and succession planning, capability mapping, supporting training and progression, improving engagement models, planning and management of work; to name just a few of the team focused activities. I have also had more input into the overall strategy of the platform, planning long term / strategic items of work, ensuring compliance across the platform and managing stakeholders at a senior leadership and client level.
+
+It a big job and a big responsibility. The list above is the tip of the iceberg of the list on what I actually work on on a day to day basis. It's required a shift in mind set and how I self manage my work and capacity.
 
 ## What have I learned?
+
+### Being liked is not as useful as being respected.
+
+### Being a martyr helps nobodies cause.
+
+### Good stakeholder engagement and planning avoids a lot of future headache.
+
+### How to adapt to feedback loops.
+
 
 ## What is next?
 
