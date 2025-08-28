@@ -48,7 +48,7 @@ It a big job and a big responsibility. The list above is the tip of the iceberg 
 
 <br/>
 
-_Keep up the great efforts_
+_Looking forward to the future_
 
 ---
 
