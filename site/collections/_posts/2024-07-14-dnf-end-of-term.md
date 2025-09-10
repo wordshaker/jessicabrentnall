@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Finishing on the Board of the .NET Foundation
+title:  Finishing on the Board of DNF
 description: "Leaving the Board of Directors for the .NET Foundation"
 date: 2024-07-14
 image: "/images/posts/2024/07-14.jpg"
